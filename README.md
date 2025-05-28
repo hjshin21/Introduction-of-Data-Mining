@@ -7,13 +7,16 @@ This project implements and evaluates an enhanced anomaly detection algorithm ba
 ###  🔗 GitHub Repository:
 https://github.com/hjshin21/Introduction-of-Data-Mining
 
-###  📁 Repository Structure
-File / Folder	Description
-train_transaction.csv	Subset (N=1500) of transaction records from the IEEE-CIS Fraud Dataset
-train_identity.csv	Matching identity information for the selected transactions
-only_LOF.ipynb	Baseline LOF implementation and evaluation
-updated_LOF.ipynb	Enhanced LOF+ algorithm implementation and performance comparison
-README.md	Project overview, usage instructions, and dataset description
+## 📁 Repository Structure
+
+| File / Folder         | Description                                                              |
+|-----------------------|--------------------------------------------------------------------------|
+| `train_transaction.csv` | Subset (N=1500) of transaction records from the IEEE-CIS Fraud Detection Dataset |
+| `train_identity.csv`    | Matching identity information for the selected transactions             |
+| `only_LOF.ipynb`        | Baseline LOF implementation and evaluation                             |
+| `updated_LOF.ipynb`     | Enhanced LOF+ algorithm implementation and performance comparison       |
+| `README.md`             | Project overview, usage instructions, and dataset description           |
+
 
 ### 📊 Performance Summary (N = 1500)
 
